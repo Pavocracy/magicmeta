@@ -1,0 +1,2 @@
+# magicmeta
+MTG Meta Scraper
