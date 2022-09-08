@@ -1,5 +1,5 @@
-import QtQuick 2.7			//Item
-import QtQuick.Controls 2.1	//Dialog
+import QtQuick 2.7 //Item
+import QtQuick.Controls 2.1 //Dialog
 
 Item {
 	id: window

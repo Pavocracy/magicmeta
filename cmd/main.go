@@ -7,6 +7,8 @@ import (
 	"github.com/therecipe/qt/quick"
 	"github.com/therecipe/qt/quickcontrols2"
 	"github.com/therecipe/qt/widgets"
+
+	"github.com/pavocracy/magicmeta/qml"
 )
 
 func main() {
@@ -28,8 +30,7 @@ func main() {
 	view.SetTitle("Basic Window")
 
 	// load the local qml file
-	view.SetSource(core.QUrl_FromLocalFile("cmd/qml/main.qml"))
-
+	view.SetSource(core.QUrl_FromLocalFile("main.qml"))
 	// make the view visible
 	view.Show()
 
