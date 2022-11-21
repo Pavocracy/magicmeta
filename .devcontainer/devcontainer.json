@@ -1,0 +1,22 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.tabSize": 8,
+                "editor.insertSpaces": false,
+                "editor.formatOnSave": true,
+                "go.formatTool": "gofmt"
+            },
+            "extensions": [
+                "golang.go"
+            ]
+        }
+    },
+    "onCreateCommand": "go get ."
+}
