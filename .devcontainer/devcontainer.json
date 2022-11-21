@@ -18,5 +18,5 @@
             ]
         }
     },
-    "onCreateCommand": "go get ."
+    "onCreateCommand": "go mod download"
 }
